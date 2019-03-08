@@ -1,10 +1,10 @@
 ﻿Public Class Union_de_Datos
 
-    Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
+    Private Sub Button1_Click() 
         RichTextBox1.Text = "Nombre: " + TextBox1.Text + vbNewLine + "Edad: " + TextBox2.Text + vbNewLine + "Domicilio: " + TextBox3.Text + vbNewLine + "Mascotas: " + TextBox4.Text + vbNewLine + "Hermanos: " + TextBox5.Text
     End Sub
 
-    Private Sub Button2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button2.Click
+    Private Sub Button2_Click() 
         TextBox1.Text = vbNullString
         TextBox2.Text = vbNullString
         TextBox3.Text = vbNullString
@@ -13,11 +13,11 @@
         RichTextBox1.Text = vbNullString
     End Sub
 
-    Private Sub Button4_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button4.Click
+    Private Sub Button4_Click() 
         Me.Close()
     End Sub
 
-    Private Sub Button3_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button3.Click
+    Private Sub Button3_Click() 
         Beep()
         FormAutorFirma1.Show()
     End Sub

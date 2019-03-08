@@ -1,42 +1,42 @@
 ﻿Public Class Colores
 
-    Private Sub RadioButton1_CheckedChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles RadioButton1.CheckedChanged
+    Private Sub RadioButton1_CheckedChanged() Handles RadioButton1.CheckedChanged
         TextBox1.BackColor = Color.Red
     End Sub
 
-    Private Sub RadioButton2_CheckedChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles RadioButton2.CheckedChanged
+    Private Sub RadioButton2_CheckedChanged() Handles RadioButton2.CheckedChanged
         TextBox1.BackColor = Color.Blue
     End Sub
 
-    Private Sub RadioButton3_CheckedChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles RadioButton3.CheckedChanged
+    Private Sub RadioButton3_CheckedChanged() Handles RadioButton3.CheckedChanged
         TextBox1.BackColor = Color.Green
     End Sub
 
-    Private Sub RadioButton4_CheckedChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles RadioButton4.CheckedChanged
+    Private Sub RadioButton4_CheckedChanged() Handles RadioButton4.CheckedChanged
         TextBox1.Location = New Point(175, 32)
     End Sub
 
-    Private Sub RadioButton5_CheckedChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles RadioButton5.CheckedChanged
+    Private Sub RadioButton5_CheckedChanged() Handles RadioButton5.CheckedChanged
         TextBox1.Location = New Point(175, 134)
     End Sub
 
-    Private Sub RadioButton6_CheckedChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles RadioButton6.CheckedChanged
+    Private Sub RadioButton6_CheckedChanged() Handles RadioButton6.CheckedChanged
         TextBox1.Location = New Point(175, 226)
     End Sub
 
-    Private Sub RadioButton7_CheckedChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles RadioButton7.CheckedChanged
+    Private Sub RadioButton7_CheckedChanged() Handles RadioButton7.CheckedChanged
         TextBox1.Show()
     End Sub
 
-    Private Sub RadioButton8_CheckedChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles RadioButton8.CheckedChanged
+    Private Sub RadioButton8_CheckedChanged() Handles RadioButton8.CheckedChanged
         TextBox1.Hide()
     End Sub
 
-    Private Sub Button2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button2.Click
+    Private Sub Button2_Click() 
         Me.Close()
     End Sub
 
-    Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
+    Private Sub Button1_Click() 
         Beep()
         FormAutorFirma1.Show()
     End Sub

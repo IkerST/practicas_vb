@@ -1,31 +1,31 @@
 ﻿Public Class Calculadora_simple
 
-    Private Sub Button5_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button5.Click
+    Private Sub Button5_Click() 
         Beep()
         FormAutorFirma1.Show()
     End Sub
 
-    Private Sub Button6_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button6.Click
+    Private Sub Button6_Click() 
         Me.Close()
     End Sub
 
-    Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
+    Private Sub Button1_Click() 
         TextBox3.Text = Val(TextBox1.Text) + Val(TextBox2.Text)
     End Sub
 
-    Private Sub Button2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button2.Click
+    Private Sub Button2_Click() 
         TextBox3.Text = Val(TextBox1.Text) - Val(TextBox2.Text)
     End Sub
 
-    Private Sub Button3_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button3.Click
+    Private Sub Button3_Click() 
         TextBox3.Text = Val(TextBox1.Text) / Val(TextBox2.Text)
     End Sub
 
-    Private Sub Button4_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button4.Click
+    Private Sub Button4_Click() 
         TextBox3.Text = Val(TextBox1.Text) * Val(TextBox2.Text)
     End Sub
 
-    Private Sub Button7_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button7.Click
+    Private Sub Button7_Click() 
         TextBox1.Text = vbNullString
         TextBox2.Text = vbNullString
         TextBox3.Text = vbNullString

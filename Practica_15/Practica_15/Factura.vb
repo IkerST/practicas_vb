@@ -2,7 +2,7 @@
 
     Dim xGenerator As System.Random = New System.Random()
 
-    Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
+    Private Sub Button1_Click() 
         TextBox1.Text = vbNullString
         TextBox2.Text = vbNullString
         TextBox3.Text = vbNullString
@@ -13,7 +13,7 @@
         TextBox8.Text = vbNullString
     End Sub
 
-    Private Sub Button2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button2.Click
+    Private Sub Button2_Click() 
         Dim STotal As Double
         Dim DescInt As Integer
         Dim Descuento As Double
@@ -31,12 +31,12 @@
         TextBox8.Text = "$" & Total
     End Sub
 
-    Private Sub Button3_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button3.Click
+    Private Sub Button3_Click() 
         Beep()
         FormAutorFirma1.Show()
     End Sub
 
-    Private Sub Button4_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button4.Click
+    Private Sub Button4_Click() 
         Me.Close()
     End Sub
 End Class
