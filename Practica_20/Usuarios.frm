@@ -62,5 +62,22 @@ Attribute VB_Creatable = False
 Attribute VB_PredeclaredId = True
 Attribute VB_Exposed = False
 Private Sub Command1_Click()
- E = ""
+If Text1.Text = "Lars" And Text2.Text = "Metallica1" Then
+Usuario1.Show()
+ElseIf Text1.Text = "James" And Text2.Text = "Metallica2" Then
+Usuario2.Show()
+ElseIf Text1.Text = "Kirk" And Text2.Text = "Metallica3" Then
+Usuario3.Show()
+ElseIf Text1.Text = "Robert" And Text2.Text = "Metallica4" Then
+Usuario4.Show()
+ElseIf Text1.Text = "Ron" And Text2.Text = "Metallica5" Then
+Usuario5.Show()
+ElseIf Text1.Text = "Lloyd" And Text2.Text = "Metallica6" Then
+Usuario6.Show()
+ElseIf Text1.Text = "Dave" And Text2.Text = "Metallica7" Then
+Usuario7.Show()
+Else
+MsgBox ("Usuario o Password Incorrecto")
+End If
+
 End Sub

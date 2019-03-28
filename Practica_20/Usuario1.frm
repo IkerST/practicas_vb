@@ -14,7 +14,7 @@ Begin VB.Form Usuario1
       Left            =   2400
       MultiLine       =   -1  'True
       TabIndex        =   2
-      Text            =   $"Usuario1.frx":0000
+      Text            =   "Usuario1.frx":0000
       Top             =   240
       Width           =   1935
    End
@@ -37,7 +37,7 @@ Begin VB.Form Usuario1
    Begin VB.Image Image1 
       Height          =   1755
       Left            =   120
-      Picture         =   "Usuario1.frx":00E3
+      Picture         =   "Usuario1.frx":00E0
       Stretch         =   -1  'True
       Top             =   120
       Width           =   1890
@@ -48,3 +48,10 @@ Attribute VB_GlobalNameSpace = False
 Attribute VB_Creatable = False
 Attribute VB_PredeclaredId = True
 Attribute VB_Exposed = False
+Private Sub Command1_Click()
+Autor.Show()
+End Sub
+
+Private Sub Command2_Click()
+Me.Close()
+End Sub
